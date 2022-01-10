@@ -133,7 +133,7 @@ adb install -r ./out/PTD_modded.apk
 
 ## Sending server response files to Android device
 
-The mod reads responses from files stored in internal storage. It can only read already decrypted, uncompressed response. On the other hand, the response should be minified and should not contain line breaks. You can use [ptd-tool](https://gitee.com/binaryeater/ptd-tool) if you have captured response before shutdown.
+The mod reads responses from files stored in internal storage. It can only read already decrypted, uncompressed response. On the other hand, the response should be minified and should not contain line breaks. You can use [ptd-tool](https://github.com/moonstone1024/ptd-tool-binaryeater) if you have captured response before shutdown.
 Send decoded json to `/sdcard/Android/data/com.square_enix.android_googleplay.PTD/files/Responses/` for the mod to pick up. I recommend using `adb push` for doing so.
 
 If the hook fails to find json file on internal storage, it prints filename to logcat. See logs with `adb logcat -s PTDHook` to see which API response is required.
