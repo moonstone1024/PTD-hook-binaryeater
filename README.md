@@ -3,8 +3,11 @@
 ## Disclaimer
 
 This mod has been provided by binaryeater for free use, and has given express permission to replicate it for use. 
+
 All resources are provided as-is and no to minimal support will be provided outside of the resources already available. 
+
 Moonstone1024 has no experience in using any of the sub-commands used in this mod and therefore is unable to modify this mod to add features. 
+
 binaryeater is no longer available for contact. 
 
 ## Introduction
